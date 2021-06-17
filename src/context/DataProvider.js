@@ -32,6 +32,7 @@ export const DataProvider = ({ children }) => {
           NOMASEG: asegurado.NOMASEG,
           CEDULA_ASEGURADO: asegurado.CEDULA_ASEGURADO,
           TOMADOR: asegurado.TOMADOR,
+          DESCPARENTESCO:asegurado.DESCPARENTESCO,
           COBERTURAS: respAsegurabilidad.data.Aseg_coberturas_cur.filter(
             (cobertura) =>
               cobertura.NUMCERT === asegurado.NUMCERT &&

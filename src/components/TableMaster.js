@@ -26,6 +26,9 @@ export const TableMaster = () => {
             <TableCell style={{ color: "white" }} align="center">
               CONTRATATANTE
             </TableCell>
+            <TableCell style={{ color: "white" }} align="center">
+              PARENTESCO
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

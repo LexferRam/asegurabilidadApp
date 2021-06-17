@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 // import AuthContext from "../Context/AuthContext/AuthContext";
 import Paper from "@material-ui/core/Paper";
-// import Logo from "../logo-fidens.png";
+import imgPira from "../logoPira.svg";
 import { HttpsIcon, Visibility, VisibilityOff } from "@material-ui/icons";
 import { Button, TextField,InputAdornment,IconButton } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
@@ -87,7 +87,7 @@ const LoginPage = (props) => {
               }}
             >
               <div style={{ display: "grid", placeItems: "center" }}>
-                <img src="https://segurospiramide.com/static/logo-piramides-487827dc6e655e3d1140b9df172adfa6.svg" style={{ width: 170, marginTop: 10 }} />
+                <img src={imgPira} style={{ width: 170, marginTop: 10 }} />
               </div>
               <div style={{ marginTop: "35px", width: "100%" }}>
                 <TextField

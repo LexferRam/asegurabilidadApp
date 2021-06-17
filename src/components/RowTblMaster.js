@@ -42,6 +42,7 @@ export const RowTblMaster = (props) => {
         <TableCell align="center">{row.CEDULA_ASEGURADO}</TableCell>
         <TableCell align="center">{row.NOMASEG}</TableCell>
         <TableCell align="center">{row.TOMADOR}</TableCell>
+        <TableCell align="center">{row.DESCPARENTESCO}</TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>

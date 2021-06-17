@@ -5,6 +5,7 @@ import { DataContext } from "../context/DataProvider";
 import MenuItem from "@material-ui/core/MenuItem";
 import SearchIcon from '@material-ui/icons/Search';
 import { AuthContext } from "../auth/AuthContext";
+import imgPira from "../logoPira.svg";
 
 const currencies = [
   {
@@ -40,7 +41,7 @@ export const DatosInputs = () => {
     <Paper elevation={3} style={{ padding: 15 }}>
       <Grid container justify="flex-start" spacing={1}>
         <Grid xs item={12}>
-        <img src="https://segurospiramide.com/static/logo-piramides-487827dc6e655e3d1140b9df172adfa6.svg" style={{ width: 140, marginTop: 10 }} />
+        <img src={imgPira} style={{ width: 140, marginTop: 10 }} />
         </Grid>
         <Grid container>
           <Grid item xs={12} style={{ marginBottom: 15 }}>
