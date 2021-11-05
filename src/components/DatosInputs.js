@@ -24,6 +24,10 @@ const currencies = [
     value: "P",
     label: "P",
   },
+  {
+    value: "M",
+    label: "M",
+  }
 ];
 
 export const DatosInputs = () => {

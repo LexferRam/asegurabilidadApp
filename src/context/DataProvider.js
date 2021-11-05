@@ -23,7 +23,7 @@ export const DataProvider = ({ children }) => {
       cCodProv: codProveedor.data[0].CODPROV,
       cTipoId: tipoDocu,
       nNumId: parseInt(ci),
-      cDvId: "0",
+      cDvId: tipoDocu == "M" ? null: "0",//"0",
     });
 
     const arrayTabla = await respAsegurabilidad.data.Asegurados_cur.map(
